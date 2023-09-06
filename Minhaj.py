@@ -16,7 +16,7 @@ except ImportError:
   
 try: 
          import concurrent.futures 
- except ImportError: 
+except ImportError: 
          os.system("pip install futures") 
   
 import os 
