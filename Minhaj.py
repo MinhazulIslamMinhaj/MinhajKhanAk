@@ -69,9 +69,13 @@ def helpnote():
          subprocess.check_output(["am", "start", "https://github.com/MinhazulIslamMinhaj/MinhajKhanAp.git"]) 
          #yahan apni facebook id link dalna 
          exit(" [=>] FACEBOOK :  https://www.facebook.com/profile.php?id=100088331583368") 
+         
+def notice(): 
+       runtxt'\033[97;1m'
+         plist = (platform.uname())[2]
+      
 
-
-basex1 = base64.b64encode('ascii')
+basex1 = base64.encode('ascii')
 basex2 = base64.b64encode(basex1) 
 basex3 = basex2.decode('ascii') 
 base4 = (basex3).upper() 
