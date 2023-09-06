@@ -54,7 +54,7 @@ def logo2():
  ───────────────────────────────────────────────────────×  
   """) 
   
- def runtxt(z): 
+def runtxt(z): 
      for e in z + "\n": 
          sys.stdout.write(e) 
          sys.stdout.flush() 
