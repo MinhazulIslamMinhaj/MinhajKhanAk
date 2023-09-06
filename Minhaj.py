@@ -71,7 +71,6 @@ def helpnote():
          exit(" [=>] FACEBOOK :  https://www.facebook.com/profile.php?id=100088331583368") 
 
 
- basex = plist 
  basex1 = basex.encode('ascii') 
  basex2 = base64.b64encode(basex1)  
  basex3 = basex2.decode('ascii') 
